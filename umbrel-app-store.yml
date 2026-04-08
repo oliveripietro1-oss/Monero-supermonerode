@@ -1,16 +1,12 @@
-name: Monero Superbrain
-id: brainchainz
-description: Community app store by SirJamzAlot for a suite of Monero apps starting with Monero Superbrain!
-developer: SirJamzAlot (@MgkMshrmBrkfst on X)
-website: https://github.com/brainchainz/monero-superbrain
-repo: https://github.com/brainchainz/monero-superbrain
-support: https://github.com/brainchainz/monero-superbrain/issues
-category: Monero
-tags:
-  - XMRIG mining
-  - Monero mining
-  - p2pool
-  - decentralized
-  - test
-  - beta
-  - XMR mining farm
+name: Monero Community Miner
+description: Nodo Monero + P2Pool mini su Intel N100 | Donazione 1% obbligatoria + redistribuzione automatica payout
+version: "1.0.0"
+repo: https://github.com/tuonome/monero-community-miner
+port: "8888"  # XMRig proxy
+icon: https://raw.githubusercontent.com/tuonome/monero-community-miner/main/icon.png
+
+config:
+  - name: APP_MONERO_WALLET
+    type: string
+    required: true
+    description: "Tuo wallet Monero (payout centrali + donazione 1%)"
